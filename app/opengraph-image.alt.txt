@@ -1,1 +1,0 @@
-Exploited Vulnerabilities Dashboard: exploited vulnerabilities mapped to ATT&CK, D3FEND countermeasures, NIST 800-53 controls and NCSC CAF outcomes.
