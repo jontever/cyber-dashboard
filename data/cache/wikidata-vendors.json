@@ -31,7 +31,7 @@
   "Adobe": {
     "qid": "Q207",
     "source": "override",
-    "checked": "2026-10-30T16:11:12.461Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "Advantive": {
     "qid": null,
@@ -82,7 +82,7 @@
   "Apple": {
     "qid": "Q312",
     "source": "override",
-    "checked": "2026-10-30T16:11:12.461Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "Aquasecurity": {
     "qid": null,
@@ -214,7 +214,7 @@
   "Cisco": {
     "qid": "Q173395",
     "source": "override",
-    "checked": "2026-10-30T16:11:12.461Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "Citrix": {
     "qid": "Q916196",
@@ -349,6 +349,11 @@
     "description": "open-source software for deploying and running of containerized applications",
     "source": "search",
     "checked": "2026-10-30T15:07:41.959Z"
+  },
+  "dotCMS": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:14.227Z"
   },
   "DotNetNuke (DNN)": {
     "qid": null,
@@ -511,7 +516,7 @@
   "Google": {
     "qid": "Q95",
     "source": "override",
-    "checked": "2026-10-30T16:11:12.461Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "Grafana Labs": {
     "qid": null,
@@ -553,6 +558,11 @@
     "description": "American multinational technology company",
     "source": "search",
     "checked": "2026-10-30T15:07:57.348Z"
+  },
+  "iCagenda": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:14.675Z"
   },
   "IETF": {
     "qid": "Q217082",
@@ -801,7 +811,7 @@
   "Microsoft": {
     "qid": "Q2283",
     "source": "override",
-    "checked": "2026-10-30T16:11:18.147Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "MikroTik": {
     "qid": "Q913580",
@@ -855,6 +865,11 @@
     "qid": null,
     "source": "search",
     "checked": "2026-10-30T16:11:21.805Z"
+  },
+  "n8n": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:15.195Z"
   },
   "Nagios": {
     "qid": null,
@@ -977,7 +992,7 @@
   "Oracle": {
     "qid": "Q19900",
     "source": "override",
-    "checked": "2026-10-30T16:11:32.537Z"
+    "checked": "2026-10-30T23:02:56.754Z"
   },
   "OSGeo": {
     "qid": "Q1197305",
@@ -985,6 +1000,13 @@
     "description": "foundation based on Open Source software for mapping",
     "source": "search",
     "checked": "2026-10-30T16:11:29.643Z"
+  },
+  "ownCloud": {
+    "qid": "Q290284",
+    "label": "ownCloud",
+    "description": "free software for cloud computing",
+    "source": "search",
+    "checked": "2026-10-30T23:03:15.673Z"
   },
   "Paessler": {
     "qid": "Q545856",
@@ -1026,6 +1048,11 @@
     "description": "industrial conglomerate headquartered in Chittagong, Bangladesh",
     "source": "search",
     "checked": "2026-10-30T16:11:33.841Z"
+  },
+  "phpMyAdmin": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:16.178Z"
   },
   "PHPUnit": {
     "qid": null,
@@ -1152,6 +1179,11 @@
     "source": "search",
     "checked": "2026-10-30T16:11:45.958Z"
   },
+  "rConfig": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:16.612Z"
+  },
   "React Native Community": {
     "qid": null,
     "source": "search",
@@ -1189,6 +1221,11 @@
     "description": "global video surveillance equipment manufacturer",
     "source": "search",
     "checked": "2026-10-30T16:11:49.025Z"
+  },
+  "reviewdog": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:17.076Z"
   },
   "Rockwell": {
     "qid": null,
@@ -1458,10 +1495,20 @@
     "source": "search",
     "checked": "2026-10-30T16:12:12.261Z"
   },
+  "ThinkPHP": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:02:57.010Z"
+  },
   "TIBCO": {
     "qid": null,
     "source": "search",
     "checked": "2026-10-30T16:12:07.187Z"
+  },
+  "tj-actions": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:17.495Z"
   },
   "TP-Link": {
     "qid": "Q1852050",
@@ -1470,9 +1517,227 @@
     "source": "search",
     "checked": "2026-10-30T16:12:07.655Z"
   },
+  "Treck TCP/IP stack": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:02:57.490Z"
+  },
+  "Trend Micro": {
+    "qid": "Q700974",
+    "label": "Trend Micro",
+    "description": "Japanese information security company",
+    "source": "search",
+    "checked": "2026-10-30T23:02:57.967Z"
+  },
+  "Trihedral": {
+    "qid": "Q28446519",
+    "label": "Trihedral Engineering",
+    "description": "Canadian automation software company",
+    "source": "search",
+    "checked": "2026-10-30T23:02:58.417Z"
+  },
+  "Trimble": {
+    "qid": "Q2297063",
+    "label": "Trimble",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T23:02:58.898Z"
+  },
+  "TrueConf": {
+    "qid": "Q83472435",
+    "label": "TrueConf",
+    "description": "Russian company in video conference and communication",
+    "source": "search",
+    "checked": "2026-10-30T23:02:59.350Z"
+  },
   "TVT": {
     "qid": null,
     "source": "search",
     "checked": "2026-10-30T16:12:08.136Z"
+  },
+  "Twilio": {
+    "qid": "Q7858039",
+    "label": "Twilio",
+    "description": "US technology company",
+    "source": "search",
+    "checked": "2026-10-30T23:02:59.802Z"
+  },
+  "Ubiquiti": {
+    "qid": "Q7876533",
+    "label": "Ubiquiti",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T23:03:00.253Z"
+  },
+  "Unitronics": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:00.748Z"
+  },
+  "Unraid": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:01.178Z"
+  },
+  "vBulletin": {
+    "qid": "Q44338",
+    "label": "vBulletin",
+    "description": "Internet forum software",
+    "source": "search",
+    "checked": "2026-10-30T23:03:17.984Z"
+  },
+  "Veeam": {
+    "qid": "Q7918048",
+    "label": "Veeam",
+    "description": "privately held information technology company",
+    "source": "search",
+    "checked": "2026-10-30T23:03:02.591Z"
+  },
+  "Veritas": {
+    "qid": "Q25409223",
+    "label": "Veritas",
+    "description": "Italian public joint-stock company in Veneto",
+    "source": "search",
+    "checked": "2026-10-30T23:03:03.099Z"
+  },
+  "Versa": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:03.570Z"
+  },
+  "Vite": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:04.043Z"
+  },
+  "VMware": {
+    "qid": "Q11407",
+    "label": "VMware",
+    "description": "for-profit maker of virtualization software, acquired by Broadcom Inc. in 2023",
+    "source": "search",
+    "checked": "2026-10-30T23:03:01.664Z"
+  },
+  "VMware Tanzu": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:02.109Z"
+  },
+  "WatchGuard": {
+    "qid": "Q1476967",
+    "label": "WatchGuard",
+    "description": "company",
+    "source": "search",
+    "checked": "2026-10-30T23:03:04.996Z"
+  },
+  "Wazuh": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:05.516Z"
+  },
+  "WebKitGTK": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:05.962Z"
+  },
+  "Webmin": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:07.315Z"
+  },
+  "WebPros": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:06.421Z"
+  },
+  "WebRTC": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:06.872Z"
+  },
+  "Widget Factory": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:07.846Z"
+  },
+  "Wing FTP Server": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:08.323Z"
+  },
+  "WordPress": {
+    "qid": "Q56787199",
+    "label": "WordPress Foundation",
+    "description": "non-profit organization",
+    "source": "search",
+    "checked": "2026-10-30T23:03:08.829Z"
+  },
+  "WSO2": {
+    "qid": "Q9095380",
+    "label": "WSO2",
+    "description": "U.S. technology provider",
+    "source": "search",
+    "checked": "2026-10-30T23:03:04.537Z"
+  },
+  "XStream": {
+    "qid": "Q8045023",
+    "label": "Xstream Pictures",
+    "description": "Chinese company",
+    "source": "search",
+    "checked": "2026-10-30T23:03:09.275Z"
+  },
+  "XWiki": {
+    "qid": "Q526699",
+    "label": "XWiki",
+    "description": "free wiki software platform written in Java",
+    "source": "search",
+    "checked": "2026-10-30T23:03:09.792Z"
+  },
+  "Yealink": {
+    "qid": "Q65261814",
+    "label": "Yealink",
+    "description": "Chinese phone manufacturer",
+    "source": "search",
+    "checked": "2026-10-30T23:03:10.241Z"
+  },
+  "Yiiframework": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:10.886Z"
+  },
+  "Zabbix": {
+    "qid": "Q136722",
+    "label": "Zabbix",
+    "description": "computer system and network monitoring application software",
+    "source": "search",
+    "checked": "2026-10-30T23:03:12.340Z"
+  },
+  "Zammad GmbH": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:12.812Z"
+  },
+  "ZK Framework": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:11.346Z"
+  },
+  "ZKTeco": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T23:03:11.865Z"
+  },
+  "Zoho": {
+    "qid": "Q8063247",
+    "label": "Zoho Corporation",
+    "description": "Indian software development company",
+    "source": "search",
+    "checked": "2026-10-30T23:03:13.271Z"
+  },
+  "Zyxel": {
+    "qid": "Q245283",
+    "label": "Zyxel",
+    "description": "Taiwanese manufacturer of networking hardware",
+    "source": "search",
+    "checked": "2026-10-30T23:03:13.754Z"
   }
 }
