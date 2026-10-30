@@ -21,7 +21,7 @@ import { toJsonLd } from "./lib/jsonld.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "public", "data");
 const CACHE = path.join(ROOT, "data", "cache");
-const SITE_URL = (process.env.SITE_URL ?? "https://exploited-to-control.vercel.app").replace(/\/$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://www.cyberteam.uk").replace(/\/$/, "");
 
 const readYaml = async (p) => yaml.load(await readFile(path.join(ROOT, p), "utf8"));
 const readCache = async (name) => (existsSync(path.join(CACHE, name)) ? JSON.parse(await readFile(path.join(CACHE, name), "utf8")) : {});
