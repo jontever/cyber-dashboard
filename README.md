@@ -40,6 +40,7 @@ CISA KEV ──► CWE ──► CAPEC (context)
 | `/` | Headline counts, CAF pressure, top techniques, relevant controls, vendor watch, latest additions |
 | `/explore/` | Filter by window, vendor, CAF outcome, technique, mapping source, ransomware and watchlist. Shows the full chain per CVE. URL state is shareable. |
 | `/caf/` | Every CAF outcome with its exploitation pressure, top techniques and countermeasures |
+| `/how-to/` | How to use the dashboard: quick start, reading a vulnerability's chain, workflows by role, filters, key terms, sharing |
 | `/about/` | Method, per-source status for the latest build, coverage, data downloads |
 | `/embed/` | A compact widget for iframing into another dashboard |
 

@@ -10,6 +10,7 @@ export function Nav() {
     ["/", "Overview"],
     ["/explore/", "Explore"],
     ["/caf/", "CAF view"],
+    ["/how-to/", "How to use"],
     ["/about/", "Method & data"],
   ];
   return (
