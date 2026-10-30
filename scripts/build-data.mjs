@@ -14,7 +14,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 import { loadKev, loadEpss, loadAttack, loadCapec, loadCtid, loadD3fend, loadWikidata } from "./lib/sources.mjs";
 import { toJsonLd } from "./lib/jsonld.mjs";
 
