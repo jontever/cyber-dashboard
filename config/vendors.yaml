@@ -1,0 +1,30 @@
+# Vendor identity overrides and the watchlist.
+#
+# overrides: KEV vendorProject name -> Wikidata QID. These win over the
+# automatic Wikidata search, which can pick the wrong entity for short or
+# ambiguous names. Use null to stop a vendor being linked at all.
+overrides:
+  Microsoft: Q2283
+  Apple: Q312
+  Google: Q95
+  Adobe: Q207
+  Oracle: Q19900
+  Cisco: Q173395
+
+# Vendors common in the UK public sector estate; shown in the "Vendor watch"
+# view. Edit to suit your own estate. Names must match KEV vendorProject.
+watchlist:
+  - Microsoft
+  - Cisco
+  - Citrix
+  - Fortinet
+  - Ivanti
+  - VMware
+  - Palo Alto Networks
+  - Oracle
+  - Atlassian
+  - Apache
+  - Google
+  - Apple
+  - SonicWall
+  - F5

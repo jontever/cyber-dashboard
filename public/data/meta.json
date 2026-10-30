@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-30T14:08:33.285Z",
+  "siteUrl": "https://exploited-to-control.vercel.app",
+  "sources": {
+    "kev": {
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
+      "catalogVersion": "2026.10.29",
+      "dateReleased": "2026-10-29T19:09:34.4003Z",
+      "count": 1764
+    },
+    "attack": {
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
+      "version": "20.0"
+    },
+    "capec": {
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json",
+      "patterns": 559
+    },
+    "ctid": {
+      "ok": true,
+      "kevFile": "mappings/kev/attack-16.1/kev-07.28.2025/enterprise/kev-07.28.2025_attack-16.1-enterprise.json",
+      "nistFile": "mappings/nist_800_53/attack-16.1/nist_800_53-rev5/enterprise/nist_800_53-rev5_attack-16.1-enterprise.json",
+      "autoDiscovered": false,
+      "kevSnapshot": "07/28/2025",
+      "kevAttackVersion": "16.1",
+      "nistAttackVersion": "16.1"
+    },
+    "epss": {
+      "ok": false,
+      "error": "https://api.first.org/data/v1/epss?cve=CVE-2026-97229,CVE-2026-76418,CVE-2026-41709,CVE-2026-46300,CVE-2026-48356,CVE-2026-111497,CVE-2026-109618,CVE-2026-109619,CVE-2026-114625,CVE-2026-110447,CVE-2026-106931,CVE-2026-96656,CVE-2026-96655,CVE-2026-96654,CVE-2026-96652,CVE-2026-110936,CVE-2026-10276"
+    },
+    "d3fend": {
+      "ok": false,
+      "error": "D3FEND unreachable: https://d3fend.mitre.org/api/offensive-technique/attack/T1003.008.json: fetch failed"
+    },
+    "wikidata": {
+      "ok": false,
+      "error": "Wikidata unreachable: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=7-Zip&language=en&type=item&limit=5&format=json: fetch failed"
+    }
+  },
+  "warnings": [
+    "epss unavailable this run: enrichment skipped.",
+    "d3fend unavailable this run: enrichment skipped.",
+    "wikidata unavailable this run: enrichment skipped."
+  ],
+  "coverage": {
+    "total": 1764,
+    "directCtid": 419,
+    "heuristicRules": 1122,
+    "unmapped": 223,
+    "withEpss": 0,
+    "techniques": 155,
+    "techniquesWithD3fend": 0,
+    "vendorsWithQid": 6,
+    "vendors": 291
+  }
+}

@@ -1,0 +1,1 @@
+Exploited to Control: every known exploited vulnerability linked to ATT&CK, D3FEND, NIST 800-53 and NCSC CAF.

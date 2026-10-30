@@ -1,0 +1,52 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Twice daily. CISA usually adds KEV entries during US working hours.
+    - cron: "23 6,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build data
+        run: npm run data
+        env:
+          # Used only for the GitHub contents API (CTID file discovery); read-only.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      - name: Check the site still builds with the new data
+        run: npm run build
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- public/data data/cache; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data data/cache
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

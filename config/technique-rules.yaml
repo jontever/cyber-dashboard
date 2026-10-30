@@ -1,0 +1,73 @@
+# Heuristic ATT&CK mapping for KEV entries that MITRE CTID has not mapped yet.
+#
+# Modelled loosely on the CTID "Mapping ATT&CK to CVE for Impact" method:
+# pick the exploitation technique from the vulnerability type and the kind of
+# product, then add obvious impacts. Rules run in order against the KEV
+# vulnerability name + short description ("text") and vendor + product
+# ("product"). Every match is labelled "heuristic" in the UI and data.
+#
+# Fields: id, techniques, type (exploitation_technique | primary_impact |
+# secondary_impact), text (regex), product (regex), not_product (regex),
+# unless (skip if the CVE already has any of these techniques).
+# Regexes are case-insensitive.
+
+client_products: &client "chrom|webkit|safari|internet explorer|\\bedge\\b|firefox|office|\\bword\\b|excel|powerpoint|outlook|acrobat|reader|flash|winrar|7-zip|mshtml|wordpad|visio|publisher"
+kernel_products: &kernel "kernel|win32k|clfs|common log file|driver|ntoskrnl|afd\\.sys|xnu"
+
+rules:
+  - id: privesc
+    techniques: [T1068]
+    type: exploitation_technique
+    text: "privilege escalation|elevation of privilege|escalate privileges|improper privilege management|gain (root|system|elevated|administrator) privileges"
+
+  - id: kernel-memory
+    techniques: [T1068]
+    type: exploitation_technique
+    product: *kernel
+    text: "use-after-free|out-of-bounds|buffer overflow|race condition|type confusion|memory|integer overflow|null pointer|initiali[sz]ation"
+    unless: [T1068]
+
+  - id: client-exploit
+    techniques: [T1203]
+    type: exploitation_technique
+    product: *client
+    text: "code execution|arbitrary code|memory corruption|use-after-free|out-of-bounds|type confusion|buffer overflow|heap|integer (overflow|underflow)|improper input validation|security feature bypass"
+    unless: [T1068]
+
+  - id: xss
+    techniques: [T1189, T1059.007]
+    type: exploitation_technique
+    text: "cross-site scripting"
+
+  - id: public-facing
+    techniques: [T1190]
+    type: exploitation_technique
+    not_product: *client
+    text: "remote code execution|command injection|os command|code injection|deserializ|path traversal|directory traversal|pathname to a restricted directory|sql injection|server-side request forgery|file inclusion|unrestricted upload|xml external|authentication bypass|improper authentication|missing authentication|authori[sz]ation bypass|incorrect authori[sz]ation|template engine|unsafe reflection|improper access control|improper input validation|memory buffer|out-of-bounds|buffer overflow|use-after-free|heap|integer (overflow|underflow)|wraparound|null pointer|cross-site request forgery|certificate validation|weak authentication"
+    unless: [T1068, T1203]
+
+  - id: default-creds
+    techniques: [T1078.001]
+    type: exploitation_technique
+    text: "hard-coded (credential|password)|hardcoded (credential|password)|default credential|default password"
+
+  - id: feature-bypass
+    techniques: [T1211]
+    type: exploitation_technique
+    text: "security feature bypass"
+    unless: [T1203]
+
+  - id: rce-impact
+    techniques: [T1059]
+    type: primary_impact
+    text: "remote code execution|command injection|os command|code injection|execute arbitrary (code|commands)"
+
+  - id: webshell-impact
+    techniques: [T1505.003]
+    type: secondary_impact
+    text: "unrestricted upload|upload of file with dangerous type|web ?shell"
+
+  - id: dos-impact
+    techniques: [T1499.004]
+    type: primary_impact
+    text: "denial[- ]of[- ]service"

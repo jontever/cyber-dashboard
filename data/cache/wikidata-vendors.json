@@ -1,0 +1,32 @@
+{
+  "Adobe": {
+    "qid": "Q207",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  },
+  "Apple": {
+    "qid": "Q312",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  },
+  "Cisco": {
+    "qid": "Q173395",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  },
+  "Google": {
+    "qid": "Q95",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  },
+  "Microsoft": {
+    "qid": "Q2283",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  },
+  "Oracle": {
+    "qid": "Q19900",
+    "source": "override",
+    "checked": "2026-10-30T14:00:53.478Z"
+  }
+}
