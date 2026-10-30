@@ -1,6 +1,6 @@
-# Exploited → Control
+# Exploited Vulnerabilities Dashboard
 
-**What is being exploited, and which controls matter.**
+**Exploited vulnerabilities mapped to countermeasures and controls.**
 
 Exploited → Control takes every vulnerability in the CISA Known Exploited Vulnerabilities (KEV) catalogue and links it to:
 

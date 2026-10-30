@@ -1,1 +1,1 @@
-Exploited to Control: every known exploited vulnerability linked to ATT&CK, D3FEND, NIST 800-53 and NCSC CAF.
+Exploited Vulnerabilities Dashboard: exploited vulnerabilities mapped to ATT&CK, D3FEND countermeasures, NIST 800-53 controls and NCSC CAF outcomes.

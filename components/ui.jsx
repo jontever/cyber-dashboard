@@ -23,7 +23,7 @@ export function Nav() {
             <path d="M46 23 L55 32 L46 41" fill="none" stroke="var(--emerald)" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </span>
-        Exploited<span className="arrow">→</span>Control
+        Exploited Vulnerabilities Dashboard
       </Link>
       <nav aria-label="Main">
         {items.map(([href, label]) => (

@@ -41,7 +41,7 @@ export default function Overview() {
       <Nav />
       <main className="wrap">
         <div className="eyebrow">Known exploited → defended</div>
-        <h1>What is being exploited, and which controls matter</h1>
+        <h1>Exploited Vulnerabilities mapped to Countermeasures and Controls</h1>
         <p className="lede">
           Every vulnerability in the CISA Known Exploited Vulnerabilities catalogue, linked to the ATT&CK techniques it enables, the D3FEND
           countermeasures and NIST 800-53 controls that address them, and the NCSC CAF outcomes they sit under.
