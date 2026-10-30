@@ -1,23 +1,743 @@
 {
+  "7-Zip": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:15.367Z"
+  },
+  "Accellion": {
+    "qid": "Q4672313",
+    "label": "Kiteworks",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:17.073Z"
+  },
+  "Acclaim Systems": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:17.556Z"
+  },
+  "Acronis": {
+    "qid": "Q342813",
+    "label": "Acronis",
+    "description": "Swiss technology company specializing in backup and disaster recovery software and services",
+    "source": "search",
+    "checked": "2026-10-30T15:07:18.159Z"
+  },
+  "Adminer": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:18.762Z"
+  },
   "Adobe": {
     "qid": "Q207",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T15:07:19.063Z"
+  },
+  "Advantive": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:19.211Z"
+  },
+  "Ahsay": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:19.645Z"
+  },
+  "Ajax.NET Professional": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:20.109Z"
+  },
+  "Alcatel": {
+    "qid": "Q509404",
+    "label": "Alcatel-Lucent",
+    "description": "French defunct global telecommunications equipment company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:20.576Z"
+  },
+  "Amcrest": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:21.042Z"
+  },
+  "AMI": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:16.080Z"
+  },
+  "Android": {
+    "qid": "Q79576",
+    "label": "Google Play",
+    "description": "digital software distribution platform from Google",
+    "source": "search",
+    "checked": "2026-10-30T15:07:21.544Z"
+  },
+  "Apache": {
+    "qid": "Q489709",
+    "label": "Apache Software Foundation",
+    "description": "American nonprofit open-source software community",
+    "source": "search",
+    "checked": "2026-10-30T15:07:22.027Z"
   },
   "Apple": {
     "qid": "Q312",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T15:07:22.326Z"
+  },
+  "Aquasecurity": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:22.499Z"
+  },
+  "Arcadyan": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:22.964Z"
+  },
+  "Arcserve": {
+    "qid": "Q932104",
+    "label": "Arcserve",
+    "description": "Data management company of the United States",
+    "source": "search",
+    "checked": "2026-10-30T15:07:23.474Z"
+  },
+  "Arista": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:23.903Z"
+  },
+  "Arm": {
+    "qid": "Q296782",
+    "label": "Arm Holdings",
+    "description": "British multinational semiconductor and software design company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:24.365Z"
+  },
+  "Array Networks ": {
+    "qid": "Q4795878",
+    "label": "Array Networks",
+    "description": "American company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:24.867Z"
+  },
+  "Artifex": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:25.377Z"
+  },
+  "ASUS": {
+    "qid": "Q152864",
+    "label": "ASUS",
+    "description": "Taiwanese computers and electronics company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:16.584Z"
+  },
+  "Atlassian": {
+    "qid": "Q757307",
+    "label": "Atlassian",
+    "description": "Australian enterprise software company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:25.846Z"
+  },
+  "Audinate": {
+    "qid": "Q109626903",
+    "label": "Audinate",
+    "description": "Australian public company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:26.323Z"
+  },
+  "Aviatrix": {
+    "qid": "Q2427817",
+    "label": "Aviatrix3D",
+    "description": "software",
+    "source": "search",
+    "checked": "2026-10-30T15:07:26.856Z"
+  },
+  "Balbooa": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:27.781Z"
+  },
+  "Barracuda Networks": {
+    "qid": "Q4863194",
+    "label": "Barracuda Networks",
+    "description": "company which delivers network solutions",
+    "source": "search",
+    "checked": "2026-10-30T15:07:28.251Z"
+  },
+  "BerriAI": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:28.712Z"
+  },
+  "BeyondTrust": {
+    "qid": "Q4899911",
+    "label": "BeyondTrust",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:29.196Z"
+  },
+  "BQE": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:27.325Z"
+  },
+  "Broadcom": {
+    "qid": "Q555925",
+    "label": "Broadcom",
+    "description": "former American semiconductor manufacturer, acquired by Avago in 2016",
+    "source": "search",
+    "checked": "2026-10-30T15:07:29.711Z"
+  },
+  "Cacti": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:30.616Z"
+  },
+  "ChakraCore": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:31.076Z"
+  },
+  "Check Point": {
+    "qid": "Q176587",
+    "label": "Check Point",
+    "description": "Israeli security company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:31.577Z"
+  },
+  "Checkbox": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:32.070Z"
   },
   "Cisco": {
     "qid": "Q173395",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T15:07:32.371Z"
+  },
+  "Citrix": {
+    "qid": "Q916196",
+    "label": "Citrix Systems",
+    "description": "American multinational software company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:32.541Z"
+  },
+  "Cleo": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:33.089Z"
+  },
+  "Code Aurora": {
+    "qid": "Q57012378",
+    "label": "Code Aurora",
+    "description": "consortium of companies with projects serving the mobile wireless industry",
+    "source": "search",
+    "checked": "2026-10-30T15:07:33.558Z"
+  },
+  "Collabora": {
+    "qid": "Q5145791",
+    "label": "Collabora",
+    "description": "global private company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:34.080Z"
+  },
+  "Commvault": {
+    "qid": "Q5152058",
+    "label": "CommVault Systems",
+    "description": "data management and information management software company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:34.586Z"
+  },
+  "ConnectWise": {
+    "qid": "Q7438975",
+    "label": "ScreenConnect",
+    "description": "remote desktop software",
+    "source": "search",
+    "checked": "2026-10-30T15:07:35.012Z"
+  },
+  "Craft CMS": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:35.447Z"
+  },
+  "Crestron": {
+    "qid": "Q85754544",
+    "label": "Crestron Electronics",
+    "description": "American multinational corporation",
+    "source": "search",
+    "checked": "2026-10-30T15:07:35.991Z"
+  },
+  "CrushFTP": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:36.419Z"
+  },
+  "CWP": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:30.111Z"
+  },
+  "CyberPersons": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:36.835Z"
+  },
+  "D-Link": {
+    "qid": "Q303580",
+    "label": "D-Link",
+    "description": "Taiwanese multinational networking equipment manufacturing corporation",
+    "source": "search",
+    "checked": "2026-10-30T15:07:37.319Z"
+  },
+  "D-Link and TRENDnet": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:37.769Z"
+  },
+  "Daemon": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:38.709Z"
+  },
+  "Dahua": {
+    "qid": "Q18111506",
+    "label": "Dahua Technology",
+    "description": "Chinese video surveillance products company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:39.147Z"
+  },
+  "Dasan": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:39.580Z"
+  },
+  "Dassault Systèmes": {
+    "qid": "Q1172038",
+    "label": "Dassault Systèmes",
+    "description": "software company headquartered in Vélizy-Villacoublay, France",
+    "source": "search",
+    "checked": "2026-10-30T15:07:40.040Z"
+  },
+  "DD-WRT": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:38.257Z"
+  },
+  "Dell": {
+    "qid": "Q30873",
+    "label": "Dell",
+    "description": "American multinational computer technology corporation",
+    "source": "search",
+    "checked": "2026-10-30T15:07:40.524Z"
+  },
+  "Delta Electronics": {
+    "qid": "Q5254620",
+    "label": "Delta Electronics",
+    "description": "Taiwanese electronics manufacturing company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:40.972Z"
+  },
+  "Digiever": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:41.486Z"
+  },
+  "Docker": {
+    "qid": "Q15206305",
+    "label": "Docker",
+    "description": "open-source software for deploying and running of containerized applications",
+    "source": "search",
+    "checked": "2026-10-30T15:07:41.959Z"
+  },
+  "DotNetNuke (DNN)": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:42.405Z"
+  },
+  "DrayTek": {
+    "qid": "Q833709",
+    "label": "DrayTek",
+    "description": "company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:42.871Z"
+  },
+  "Drupal": {
+    "qid": "Q114043581",
+    "label": "DrupalCon Prague 2022",
+    "description": "Developer conference",
+    "source": "search",
+    "checked": "2026-10-30T15:07:43.330Z"
+  },
+  "Edimax": {
+    "qid": "Q4037932",
+    "label": "Edimax Technology",
+    "description": "business enterprise",
+    "source": "search",
+    "checked": "2026-10-30T15:07:44.231Z"
+  },
+  "EG Secure Solutions": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:43.778Z"
+  },
+  "Elastic": {
+    "qid": "Q22074922",
+    "label": "Elastic",
+    "description": "software business, developer of Elasticsearch",
+    "source": "search",
+    "checked": "2026-10-30T15:07:44.696Z"
+  },
+  "Embedthis": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:45.145Z"
+  },
+  "Erlang": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:45.675Z"
+  },
+  "Exim": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:46.153Z"
+  },
+  "EyesOfNetwork": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:46.620Z"
+  },
+  "F5": {
+    "qid": "Q3029296",
+    "label": "F5, Inc.",
+    "description": "Multi-cloud cybersecurity and application delivery company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:47.052Z"
+  },
+  "FatPipe": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:47.957Z"
+  },
+  "ForgeRock": {
+    "qid": "Q18150963",
+    "label": "ForgeRock",
+    "description": "Identity management software company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:48.433Z"
+  },
+  "Fortinet": {
+    "qid": "Q2749364",
+    "label": "Fortinet",
+    "description": "network security corporation",
+    "source": "search",
+    "checked": "2026-10-30T15:07:48.850Z"
+  },
+  "Fortra": {
+    "qid": "Q126177969",
+    "label": "Fortra",
+    "description": "American cybersecurity company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:49.302Z"
+  },
+  "FreeType": {
+    "qid": "Q1326617",
+    "label": "FreeType",
+    "description": "software development library to render text onto bitmaps, and other font-related operations",
+    "source": "search",
+    "checked": "2026-10-30T15:07:49.743Z"
+  },
+  "Fuel CMS": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:50.177Z"
+  },
+  "FXC": {
+    "qid": "Q28873473",
+    "label": "FXCollaborative",
+    "description": "American Company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:47.511Z"
+  },
+  "GeoVision": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:51.703Z"
+  },
+  "GIGABYTE": {
+    "qid": "Q697675",
+    "label": "Gigabyte Technology",
+    "description": "Taiwanese electronics company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:50.712Z"
+  },
+  "Git": {
+    "qid": "Q364",
+    "label": "GitHub",
+    "description": "hosting service for software projects using Git",
+    "source": "search",
+    "checked": "2026-10-30T15:07:52.120Z"
+  },
+  "Gitea": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:53.030Z"
+  },
+  "GitLab": {
+    "qid": "Q25973915",
+    "label": "GitLab EE",
+    "description": "GitLab Enterprise Edition",
+    "source": "search",
+    "checked": "2026-10-30T15:07:52.598Z"
+  },
+  "Gladinet": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:53.648Z"
+  },
+  "GNU": {
+    "qid": "Q7603",
+    "label": "GNU General Public License",
+    "description": "series of free software licenses",
+    "source": "search",
+    "checked": "2026-10-30T15:07:51.247Z"
+  },
+  "Gogs": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:54.129Z"
   },
   "Google": {
     "qid": "Q95",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T15:07:54.429Z"
+  },
+  "Grafana Labs": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:54.606Z"
+  },
+  "Grandstream": {
+    "qid": "Q5595541",
+    "label": "Grandstream Networks",
+    "description": "Telecommunications company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:55.052Z"
+  },
+  "Hewlett Packard (HP)": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:55.483Z"
+  },
+  "Hewlett Packard Enterprise (HPE)": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:55.913Z"
+  },
+  "Hikvision": {
+    "qid": "Q5760704",
+    "label": "Hikvision",
+    "description": "Chinese video surveillance equipment company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:56.396Z"
+  },
+  "Hitachi Vantara": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:56.870Z"
+  },
+  "IBM": {
+    "qid": "Q37156",
+    "label": "IBM",
+    "description": "American multinational technology company",
+    "source": "search",
+    "checked": "2026-10-30T15:07:57.348Z"
+  },
+  "IETF": {
+    "qid": "Q217082",
+    "label": "Internet Engineering Task Force",
+    "description": "Open Internet standards organization",
+    "source": "search",
+    "checked": "2026-10-30T15:07:57.786Z"
+  },
+  "IGEL": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:07:58.263Z"
+  },
+  "Ignite Realtime": {
+    "qid": "Q139988037",
+    "label": "Ignite Realtime Foundation",
+    "description": "Open-source software organization that develops and maintains XMPP-based real-time communication software.",
+    "source": "search",
+    "checked": "2026-10-30T15:07:59.328Z"
+  },
+  "ImageMagick": {
+    "qid": "Q1047199",
+    "label": "ImageMagick",
+    "description": "free and open-source software",
+    "source": "search",
+    "checked": "2026-10-30T15:07:59.809Z"
+  },
+  "InduSoft": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:00.260Z"
+  },
+  "Intel": {
+    "qid": "Q248",
+    "label": "Intel",
+    "description": "American multinational technology company",
+    "source": "search",
+    "checked": "2026-10-30T15:08:00.780Z"
+  },
+  "ISC": {
+    "qid": "Q57587699",
+    "label": "International Science Council",
+    "description": "global non-governmental organization representing natural and social sciences",
+    "source": "search",
+    "checked": "2026-10-30T15:07:58.835Z"
+  },
+  "Ivanti": {
+    "qid": "Q4042416",
+    "label": "Ivanti",
+    "description": "American IT software company",
+    "source": "search",
+    "checked": "2026-10-30T15:08:01.251Z"
+  },
+  "Jenkins": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:02.671Z"
+  },
+  "JetBrains": {
+    "qid": "Q1688472",
+    "label": "JetBrains",
+    "description": "Czech software company",
+    "source": "search",
+    "checked": "2026-10-30T15:08:03.251Z"
+  },
+  "JFrog": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:01.691Z"
+  },
+  "Joomla!": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:04.232Z"
+  },
+  "Joomlack": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:04.647Z"
+  },
+  "JoomShaper": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:03.698Z"
+  },
+  "JQuery": {
+    "qid": "Q80656429",
+    "label": "jQuery Foundation",
+    "description": "organization",
+    "source": "search",
+    "checked": "2026-10-30T15:08:02.174Z"
+  },
+  "Juniper": {
+    "qid": "Q1049080",
+    "label": "Juniper Networks",
+    "description": "American multinational technology company",
+    "source": "search",
+    "checked": "2026-10-30T15:08:05.160Z"
+  },
+  "Justice AV Solutions": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:05.622Z"
+  },
+  "Kaseya": {
+    "qid": "Q107420131",
+    "label": "Kaseya",
+    "description": "American software company based in Miami, Florida",
+    "source": "search",
+    "checked": "2026-10-30T15:08:06.479Z"
+  },
+  "Kentico": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:07.193Z"
+  },
+  "Kestra": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:07.683Z"
+  },
+  "Kingsoft": {
+    "qid": "Q1439934",
+    "label": "Kingsoft",
+    "description": "Chinese software company",
+    "source": "search",
+    "checked": "2026-10-30T15:08:08.149Z"
+  },
+  "Kludex": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:08.602Z"
+  },
+  "KNX Association": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:06.042Z"
+  },
+  "Langflow": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:09.581Z"
+  },
+  "Lantronix": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:10.017Z"
+  },
+  "Laravel": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:10.501Z"
+  },
+  "LG": {
+    "qid": "Q136778",
+    "label": "LG Group",
+    "description": "South Korean multinational conglomerate",
+    "source": "search",
+    "checked": "2026-10-30T15:08:09.159Z"
+  },
+  "Libraesva": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T15:08:10.943Z"
+  },
+  "Liferay": {
+    "qid": "Q254211",
+    "label": "Liferay Portal",
+    "description": "software",
+    "source": "search",
+    "checked": "2026-10-30T15:08:11.667Z"
+  },
+  "Linux": {
+    "qid": "Q858851",
+    "label": "Linux Foundation",
+    "description": "non-profit technology consortium for development of Linux and open source",
+    "source": "search",
+    "checked": "2026-10-30T15:08:12.171Z"
+  },
+  "LiteSpeed": {
+    "qid": "Q6647810",
+    "label": "Litespeed",
+    "description": "bicycle manufacturer",
+    "source": "search",
+    "checked": "2026-10-30T15:08:12.733Z"
   },
   "Microsoft": {
     "qid": "Q2283",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-30T14:08:33.285Z",
-  "siteUrl": "https://exploited-to-control.vercel.app",
+  "generatedAt": "2026-10-30T15:05:03.324Z",
+  "siteUrl": "",
   "sources": {
     "kev": {
       "ok": true,
-      "url": "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "catalogVersion": "2026.10.29",
       "dateReleased": "2026-10-29T19:09:34.4003Z",
       "count": 1764
@@ -23,38 +23,39 @@
       "ok": true,
       "kevFile": "mappings/kev/attack-16.1/kev-07.28.2025/enterprise/kev-07.28.2025_attack-16.1-enterprise.json",
       "nistFile": "mappings/nist_800_53/attack-16.1/nist_800_53-rev5/enterprise/nist_800_53-rev5_attack-16.1-enterprise.json",
-      "autoDiscovered": false,
+      "autoDiscovered": true,
       "kevSnapshot": "07/28/2025",
       "kevAttackVersion": "16.1",
       "nistAttackVersion": "16.1"
     },
     "epss": {
-      "ok": false,
-      "error": "https://api.first.org/data/v1/epss?cve=CVE-2026-97229,CVE-2026-76418,CVE-2026-41709,CVE-2026-46300,CVE-2026-48356,CVE-2026-111497,CVE-2026-109618,CVE-2026-109619,CVE-2026-114625,CVE-2026-110447,CVE-2026-106931,CVE-2026-96656,CVE-2026-96655,CVE-2026-96654,CVE-2026-96652,CVE-2026-110936,CVE-2026-10276"
+      "ok": true,
+      "url": "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz",
+      "scoreDate": "2026-10-30T12:03:08Z",
+      "scored": 1764
     },
     "d3fend": {
-      "ok": false,
-      "error": "D3FEND unreachable: https://d3fend.mitre.org/api/offensive-technique/attack/T1003.008.json: fetch failed"
+      "ok": true,
+      "requestsThisRun": 150,
+      "failures": 0,
+      "cachedTechniques": 150
     },
     "wikidata": {
-      "ok": false,
-      "error": "Wikidata unreachable: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=7-Zip&language=en&type=item&limit=5&format=json: fetch failed"
+      "ok": true,
+      "requestsThisRun": 120,
+      "resolved": 66
     }
   },
-  "warnings": [
-    "epss unavailable this run: enrichment skipped.",
-    "d3fend unavailable this run: enrichment skipped.",
-    "wikidata unavailable this run: enrichment skipped."
-  ],
+  "warnings": [],
   "coverage": {
     "total": 1764,
     "directCtid": 419,
     "heuristicRules": 1122,
     "unmapped": 223,
-    "withEpss": 0,
+    "withEpss": 1764,
     "techniques": 155,
-    "techniquesWithD3fend": 0,
-    "vendorsWithQid": 6,
+    "techniquesWithD3fend": 127,
+    "vendorsWithQid": 66,
     "vendors": 291
   }
 }
