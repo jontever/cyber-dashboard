@@ -1,0 +1,53 @@
+# Data sources for the daily build. Each source lists URLs in priority order;
+# the pipeline tries each until one works. Optional sources degrade gracefully:
+# if they fail, the build still succeeds and meta.json records what was skipped.
+
+kev:
+  required: true
+  urls:
+    - https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+    - https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json
+
+epss:
+  required: false
+  # Full daily file (all CVEs). Falls back to the FIRST API in batches of 100.
+  csv_gz_urls:
+    - https://epss.empiricalsecurity.com/epss_scores-current.csv.gz
+  api_url: https://api.first.org/data/v1/epss
+
+attack:
+  required: true
+  urls:
+    - https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json
+
+capec:
+  required: true
+  urls:
+    - https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json
+
+# MITRE CTID Mappings Explorer. The pipeline discovers the newest KEV and
+# NIST 800-53 rev5 mapping files through the GitHub contents API, and falls
+# back to the pinned paths below if discovery fails.
+ctid:
+  required: false
+  repo: center-for-threat-informed-defense/mappings-explorer
+  branch: main
+  kev_pinned: mappings/kev/attack-16.1/kev-07.28.2025/enterprise/kev-07.28.2025_attack-16.1-enterprise.json
+  nist_pinned: mappings/nist_800_53/attack-16.1/nist_800_53-rev5/enterprise/nist_800_53-rev5_attack-16.1-enterprise.json
+
+d3fend:
+  required: false
+  # Per-technique lookups are cached in data/cache/d3fend.json and refreshed
+  # after cache_days, so a normal daily run makes very few requests.
+  api_template: https://d3fend.mitre.org/api/offensive-technique/attack/{id}.json
+  cache_days: 30
+  max_requests_per_run: 150
+  delay_ms: 750
+
+wikidata:
+  required: false
+  api: https://www.wikidata.org/w/api.php
+  cache_days: 90
+  max_requests_per_run: 120
+  delay_ms: 300
+  user_agent: "exploited-to-control/0.1 (https://github.com/jontever/cyber-dashboard)"

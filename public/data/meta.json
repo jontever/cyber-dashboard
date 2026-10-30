@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-10-30T16:11:03.320Z",
+  "siteUrl": "https://www.cyberteam.uk",
+  "sources": {
+    "kev": {
+      "ok": true,
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "catalogVersion": "2026.10.29",
+      "dateReleased": "2026-10-29T19:09:34.4003Z",
+      "count": 1764
+    },
+    "attack": {
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
+      "version": "20.0"
+    },
+    "capec": {
+      "ok": true,
+      "url": "https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json",
+      "patterns": 559
+    },
+    "ctid": {
+      "ok": true,
+      "kevFile": "mappings/kev/attack-16.1/kev-07.28.2025/enterprise/kev-07.28.2025_attack-16.1-enterprise.json",
+      "nistFile": "mappings/nist_800_53/attack-16.1/nist_800_53-rev5/enterprise/nist_800_53-rev5_attack-16.1-enterprise.json",
+      "autoDiscovered": true,
+      "kevSnapshot": "07/28/2025",
+      "kevAttackVersion": "16.1",
+      "nistAttackVersion": "16.1"
+    },
+    "epss": {
+      "ok": true,
+      "url": "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz",
+      "scoreDate": "2026-10-30T12:03:08Z",
+      "scored": 1764
+    },
+    "d3fend": {
+      "ok": true,
+      "requestsThisRun": 5,
+      "failures": 0,
+      "cachedTechniques": 155
+    },
+    "wikidata": {
+      "ok": true,
+      "requestsThisRun": 120,
+      "resolved": 129
+    }
+  },
+  "warnings": [],
+  "coverage": {
+    "total": 1764,
+    "directCtid": 419,
+    "heuristicRules": 1122,
+    "unmapped": 223,
+    "withEpss": 1764,
+    "techniques": 155,
+    "techniquesWithD3fend": 127,
+    "vendorsWithQid": 129,
+    "vendors": 291
+  }
+}

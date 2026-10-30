@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Source for app/opengraph-image.png (1200x630). Render with any headless browser at 1200x630.
+     Font paths assume this file is opened from docs/brand/ after `npm ci`. -->
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;font-weight:500;src:url(../../node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-500-normal.woff2)}
+@font-face{font-family:SG;font-weight:700;src:url(../../node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:PM;font-weight:400;src:url(../../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2)}
+@font-face{font-family:PM;font-weight:600;src:url(../../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-600-normal.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:630px;background:#f6f7fb;color:#0f172a;font-family:SG;overflow:hidden;position:relative}
+.grid{position:absolute;inset:0;background-image:linear-gradient(#dfe5ef 1px,transparent 1px),linear-gradient(90deg,#dfe5ef 1px,transparent 1px);
+  background-size:40px 40px;opacity:.9;mask-image:radial-gradient(ellipse at 75% 30%,#000 10%,transparent 70%)}
+.wrap{position:relative;padding:64px 72px;height:100%;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:16px;font-weight:700;font-size:30px;letter-spacing:-.01em}
+.brand svg{width:56px;height:56px}
+.arrow{color:#047857}
+h1{font-size:56px;line-height:1.05;font-weight:700;letter-spacing:-.03em;margin-top:38px;max-width:1060px}
+h1 em{font-style:normal;color:#6d28d9}
+.sub{font-size:25px;color:#334155;margin-top:18px;max-width:900px;font-weight:500;line-height:1.35}
+.chain{display:flex;align-items:center;gap:14px;margin-top:auto}
+.node{font-family:PM;font-weight:600;font-size:21px;padding:10px 18px;border-radius:10px;border:2px solid var(--c);color:var(--c);background:#ffffff;box-shadow:0 1px 2px rgba(15,23,42,.06)}
+.link{width:34px;height:2px;background:#94a3b8;position:relative}
+.link:after{content:"";position:absolute;right:-2px;top:-5px;border-left:9px solid #94a3b8;border-top:6px solid transparent;border-bottom:6px solid transparent}
+.foot{display:flex;justify-content:space-between;font-family:PM;font-size:18px;color:#64748b;margin-top:30px}
+</style></head><body>
+<div class="grid"></div>
+<div class="wrap">
+  <div class="brand">
+    <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#ffffff" stroke="#dde3ee" stroke-width="2"/><path d="M22 14 L36 32 L22 50 L8 32 Z" fill="#6d28d9"/>
+      <path d="M34 32 H54" stroke="#047857" stroke-width="6" stroke-linecap="round"/><path d="M46 23 L55 32 L46 41" fill="none" stroke="#047857" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Exploited Vulnerabilities Dashboard</span>
+  </div>
+  <h1>Exploited Vulnerabilities mapped to <em>Countermeasures and Controls</em></h1>
+  <p class="sub">Every known exploited vulnerability linked to ATT&amp;CK techniques, D3FEND countermeasures, NIST 800-53 controls and NCSC CAF outcomes.</p>
+  <div class="chain">
+    <span class="node" style="--c:#be123c">CISA KEV</span><span class="link"></span>
+    <span class="node" style="--c:#1d4ed8">ATT&amp;CK</span><span class="link"></span>
+    <span class="node" style="--c:#047857">D3FEND · 800-53</span><span class="link"></span>
+    <span class="node" style="--c:#6d28d9">NCSC CAF</span>
+  </div>
+  <div class="foot"><span>Open source · open data · refreshed daily</span><span>Jonathan Silvester</span></div>
+</div>
+</body></html>
