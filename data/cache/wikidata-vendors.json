@@ -31,7 +31,7 @@
   "Adobe": {
     "qid": "Q207",
     "source": "override",
-    "checked": "2026-10-30T15:07:19.063Z"
+    "checked": "2026-10-30T16:11:12.461Z"
   },
   "Advantive": {
     "qid": null,
@@ -82,7 +82,7 @@
   "Apple": {
     "qid": "Q312",
     "source": "override",
-    "checked": "2026-10-30T15:07:22.326Z"
+    "checked": "2026-10-30T16:11:12.461Z"
   },
   "Aquasecurity": {
     "qid": null,
@@ -214,7 +214,7 @@
   "Cisco": {
     "qid": "Q173395",
     "source": "override",
-    "checked": "2026-10-30T15:07:32.371Z"
+    "checked": "2026-10-30T16:11:12.461Z"
   },
   "Citrix": {
     "qid": "Q916196",
@@ -511,7 +511,7 @@
   "Google": {
     "qid": "Q95",
     "source": "override",
-    "checked": "2026-10-30T15:07:54.429Z"
+    "checked": "2026-10-30T16:11:12.461Z"
   },
   "Grafana Labs": {
     "qid": null,
@@ -739,14 +739,740 @@
     "source": "search",
     "checked": "2026-10-30T15:08:12.733Z"
   },
+  "Looking Glass": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:12.873Z"
+  },
+  "Marimo": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:14.627Z"
+  },
+  "McAfee": {
+    "qid": "Q267313",
+    "label": "McAfee, LLC",
+    "description": "American global computer security software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:15.250Z"
+  },
+  "MDaemon": {
+    "qid": "Q1619361",
+    "label": "MDaemon",
+    "description": "email and groupware server software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:13.395Z"
+  },
+  "MediaTek": {
+    "qid": "Q699848",
+    "label": "MediaTek",
+    "description": "Taiwanese semiconductor company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:15.780Z"
+  },
+  "Meta": {
+    "qid": "Q380",
+    "label": "Meta Platforms",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:16.322Z"
+  },
+  "Meta Platforms": {
+    "qid": "Q380",
+    "label": "Meta Platforms",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:16.879Z"
+  },
+  "Metabase": {
+    "qid": "Q56556624",
+    "label": "Metabase",
+    "description": "database analytics software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:17.372Z"
+  },
+  "Micro Focus": {
+    "qid": "Q1931458",
+    "label": "Micro Focus International",
+    "description": "former British multinational software and information technology business",
+    "source": "search",
+    "checked": "2026-10-30T16:11:17.847Z"
+  },
   "Microsoft": {
     "qid": "Q2283",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T16:11:18.147Z"
+  },
+  "MikroTik": {
+    "qid": "Q913580",
+    "label": "MikroTik",
+    "description": "Latvian networking equipment manufacturer",
+    "source": "search",
+    "checked": "2026-10-30T16:11:18.389Z"
+  },
+  "MinIO": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:18.908Z"
+  },
+  "Mirasvit": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:19.398Z"
+  },
+  "Mitel": {
+    "qid": "Q1957521",
+    "label": "Mitel",
+    "description": "Canadian telecommunications company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:19.847Z"
+  },
+  "MLflow": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:14.202Z"
+  },
+  "MongoDB": {
+    "qid": "Q4546965",
+    "label": "MongoDB Inc.",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:20.334Z"
+  },
+  "Motex": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:20.813Z"
+  },
+  "Mozilla": {
+    "qid": "Q169925",
+    "label": "Mozilla Corporation",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:21.302Z"
+  },
+  "N-able": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:21.805Z"
+  },
+  "Nagios": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:23.834Z"
+  },
+  "NAKIVO": {
+    "qid": "Q113556995",
+    "label": "NAKIVO",
+    "description": "NAKIVO is a privately held information technology company headquartered in Sparks, Nevada, USA. It develops backup and disaster recovery software.",
+    "source": "search",
+    "checked": "2026-10-30T16:11:22.342Z"
+  },
+  "NETGEAR": {
+    "qid": "Q979690",
+    "label": "Netgear",
+    "description": "American multinational technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:22.838Z"
+  },
+  "Netis": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:24.370Z"
+  },
+  "Netwrix": {
+    "qid": "Q17083062",
+    "label": "Netwrix",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:24.839Z"
+  },
+  "NextGen Healthcare": {
+    "qid": "Q17109731",
+    "label": "NextGen Healthcare Information Systems",
+    "description": "American software and services company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:25.330Z"
+  },
+  "Nice": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:25.835Z"
+  },
+  "North Grid": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:26.297Z"
+  },
+  "Nostromo": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:26.742Z"
+  },
+  "Notepad++": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:27.189Z"
+  },
+  "Novi Survey": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:27.619Z"
+  },
+  "Npm package": {
+    "qid": "Q98047893",
+    "label": "npm package",
+    "description": "packaged software for use with the Node.js package manager (npm)",
+    "source": "search",
+    "checked": "2026-10-30T16:11:28.119Z"
+  },
+  "NUUO": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:23.402Z"
+  },
+  "Nx": {
+    "qid": "Q1155668",
+    "label": "NXP Semiconductors",
+    "description": "Dutch company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:28.588Z"
+  },
+  "October CMS": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:30.078Z"
+  },
+  "Omnissa": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:30.605Z"
+  },
+  "ONLYOFFICE": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:29.044Z"
+  },
+  "OpenBSD": {
+    "qid": "Q386474",
+    "label": "ISC license",
+    "description": "permissive free software license originally published by the Internet Systems Consortium (ISC)",
+    "source": "search",
+    "checked": "2026-10-30T16:11:31.101Z"
+  },
+  "OpenPLC": {
+    "qid": "Q140781616",
+    "label": "OpenPLC61850",
+    "description": "software described in SoftwareX",
+    "source": "search",
+    "checked": "2026-10-30T16:11:31.648Z"
+  },
+  "OpenSSL": {
+    "qid": "Q89948816",
+    "label": "OpenSSL License",
+    "description": "free software license",
+    "source": "search",
+    "checked": "2026-10-30T16:11:32.238Z"
   },
   "Oracle": {
     "qid": "Q19900",
     "source": "override",
-    "checked": "2026-10-30T14:00:53.478Z"
+    "checked": "2026-10-30T16:11:32.537Z"
+  },
+  "OSGeo": {
+    "qid": "Q1197305",
+    "label": "Open Source Geospatial Foundation",
+    "description": "foundation based on Open Source software for mapping",
+    "source": "search",
+    "checked": "2026-10-30T16:11:29.643Z"
+  },
+  "Paessler": {
+    "qid": "Q545856",
+    "label": "Paessler PRTG",
+    "description": "network monitoring software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:36.026Z"
+  },
+  "Palo Alto Networks": {
+    "qid": "Q7128508",
+    "label": "Palo Alto Networks",
+    "description": "American multinational cybersecurity company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:36.498Z"
+  },
+  "PaperCut": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:36.972Z"
+  },
+  "PEAR": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:32.755Z"
+  },
+  "Perl": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:37.389Z"
+  },
+  "PHP": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:33.293Z"
+  },
+  "PHP Group": {
+    "qid": "Q6055370",
+    "label": "PHP Family",
+    "description": "industrial conglomerate headquartered in Chittagong, Bangladesh",
+    "source": "search",
+    "checked": "2026-10-30T16:11:33.841Z"
+  },
+  "PHPUnit": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:34.419Z"
+  },
+  "Pi-hole": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:37.946Z"
+  },
+  "PlaySMS": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:38.401Z"
+  },
+  "Plex": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:38.870Z"
+  },
+  "Prettier": {
+    "qid": "Q7242191",
+    "label": "Prettier Than Pink",
+    "description": "organization",
+    "source": "search",
+    "checked": "2026-10-30T16:11:39.310Z"
+  },
+  "Primetek": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:39.733Z"
+  },
+  "ProFTPD": {
+    "qid": "Q2111436",
+    "label": "ProFTPD",
+    "description": "open-source FTP server software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:40.216Z"
+  },
+  "Progress": {
+    "qid": "Q741046",
+    "label": "Progress Software",
+    "description": "global software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:40.730Z"
+  },
+  "ProjectSend": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:41.167Z"
+  },
+  "PTC": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:34.970Z"
+  },
+  "PTZOptics": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:35.417Z"
+  },
+  "Pulse Secure": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:41.689Z"
+  },
+  "Qlik": {
+    "qid": "Q923062",
+    "label": "Qlik",
+    "description": "American company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:43.167Z"
+  },
+  "QNAP": {
+    "qid": "Q3412500",
+    "label": "QNAP Systems",
+    "description": "Taiwanese network-attached storage company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:42.129Z"
+  },
+  "QNAP Systems": {
+    "qid": "Q3412500",
+    "label": "QNAP Systems",
+    "description": "Taiwanese network-attached storage company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:42.694Z"
+  },
+  "Qualcomm": {
+    "qid": "Q544847",
+    "label": "Qualcomm",
+    "description": "American global semiconductor company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:43.629Z"
+  },
+  "Qualitia": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:44.097Z"
+  },
+  "Quest": {
+    "qid": "Q2737049",
+    "label": "Quest",
+    "description": "video game company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:44.576Z"
+  },
+  "Rails": {
+    "qid": "Q7284120",
+    "label": "Dovetail Games",
+    "description": "British video game developer",
+    "source": "search",
+    "checked": "2026-10-30T16:11:45.508Z"
+  },
+  "RARLAB": {
+    "qid": "Q55947997",
+    "label": "RARLAB",
+    "description": "German software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:45.020Z"
+  },
+  "Ray-Project": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:45.958Z"
+  },
+  "React Native Community": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:46.439Z"
+  },
+  "Realtek": {
+    "qid": "Q619364",
+    "label": "Realtek",
+    "description": "Taiwanese fabless semiconductor company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:47.030Z"
+  },
+  "Red Hat": {
+    "qid": "Q485593",
+    "label": "Red Hat",
+    "description": "American multinational software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:47.504Z"
+  },
+  "Redis": {
+    "qid": "Q2136322",
+    "label": "Redis",
+    "description": "NoSQL database management software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:47.994Z"
+  },
+  "Rejetto": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:48.493Z"
+  },
+  "Reolink": {
+    "qid": "Q133521785",
+    "label": "Reolink",
+    "description": "global video surveillance equipment manufacturer",
+    "source": "search",
+    "checked": "2026-10-30T16:11:49.025Z"
+  },
+  "Rockwell": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:49.525Z"
+  },
+  "Roundcube": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:49.986Z"
+  },
+  "Ruckus Wireless": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:50.456Z"
+  },
+  "SaltStack": {
+    "qid": "Q7405800",
+    "label": "Salt",
+    "description": "configuration management software",
+    "source": "search",
+    "checked": "2026-10-30T16:11:52.460Z"
+  },
+  "Samba": {
+    "qid": "Q1830735",
+    "label": "Samba",
+    "description": "free software re-implementation of the SMB networking protocol",
+    "source": "search",
+    "checked": "2026-10-30T16:11:52.992Z"
+  },
+  "Samsung": {
+    "qid": "Q20718",
+    "label": "Samsung Electronics",
+    "description": "South Korean multinational electronics corporation",
+    "source": "search",
+    "checked": "2026-10-30T16:11:53.489Z"
+  },
+  "Sangoma": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:53.970Z"
+  },
+  "SAP": {
+    "qid": "Q552581",
+    "label": "SAP",
+    "description": "German software producer",
+    "source": "search",
+    "checked": "2026-10-30T16:11:50.953Z"
+  },
+  "Schneider Electric": {
+    "qid": "Q49053",
+    "label": "Schneider Electric",
+    "description": "France-based multinational corporation",
+    "source": "search",
+    "checked": "2026-10-30T16:11:54.440Z"
+  },
+  "ScienceLogic": {
+    "qid": "Q7433464",
+    "label": "ScienceLogic",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:54.892Z"
+  },
+  "ServiceNow": {
+    "qid": "Q7455653",
+    "label": "ServiceNow",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:55.395Z"
+  },
+  "Siemens": {
+    "qid": "Q81230",
+    "label": "Siemens",
+    "description": "German multinational conglomerate company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:55.918Z"
+  },
+  "Sierra Wireless": {
+    "qid": "Q13529476",
+    "label": "Sierra Wireless",
+    "description": "wireless communications equipment manufacturer",
+    "source": "search",
+    "checked": "2026-10-30T16:11:56.411Z"
+  },
+  "SIMalliance": {
+    "qid": "Q130482454",
+    "label": "SIMalliance",
+    "description": "trade association of SIM card vendors",
+    "source": "search",
+    "checked": "2026-10-30T16:11:51.421Z"
+  },
+  "SimpleHelp ": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:56.907Z"
+  },
+  "Sitecore": {
+    "qid": "Q2663195",
+    "label": "Sitecore",
+    "description": "company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:57.364Z"
+  },
+  "SKYSEA": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:51.973Z"
+  },
+  "Smartbedded": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:57.837Z"
+  },
+  "SmarterTools": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:58.286Z"
+  },
+  "SolarView": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:11:58.737Z"
+  },
+  "SolarWinds": {
+    "qid": "Q7555837",
+    "label": "SolarWinds",
+    "description": "American software company",
+    "source": "search",
+    "checked": "2026-10-30T16:11:59.244Z"
+  },
+  "Soliton Systems K.K": {
+    "qid": "Q11315398",
+    "label": "Soliton Systems",
+    "description": "business enterprise",
+    "source": "search",
+    "checked": "2026-10-30T16:11:59.691Z"
+  },
+  "Sonatype": {
+    "qid": "Q21200464",
+    "label": "Sonatype Inc.",
+    "description": "software supply chain management company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:00.208Z"
+  },
+  "SonicWall": {
+    "qid": "Q616855",
+    "label": "SonicWall",
+    "description": "cybersecurity company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:00.853Z"
+  },
+  "Sophos": {
+    "qid": "Q1934568",
+    "label": "Sophos",
+    "description": "security software company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:01.320Z"
+  },
+  "Splunk": {
+    "qid": "Q1835753",
+    "label": "Splunk Inc.",
+    "description": "American technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:01.806Z"
+  },
+  "Spreadsheet::ParseExcel": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:02.238Z"
+  },
+  "Srimax": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:02.669Z"
+  },
+  "Strapi": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:03.235Z"
+  },
+  "Sudo": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:03.771Z"
+  },
+  "SugarCRM": {
+    "qid": "Q1544974",
+    "label": "SugarCRM",
+    "description": "company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:04.275Z"
+  },
+  "Sumavision": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:04.740Z"
+  },
+  "Sunhillo": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:05.251Z"
+  },
+  "Symantec": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:05.702Z"
+  },
+  "Synacor": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:06.150Z"
+  },
+  "SysAid": {
+    "qid": "Q7663540",
+    "label": "Sys Technologies",
+    "description": "Israeli IT service management software company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:06.695Z"
+  },
+  "TanStack": {
+    "qid": "Q136850171",
+    "label": "TanStack LLC",
+    "description": "A company maintaining TanStack libraries",
+    "source": "search",
+    "checked": "2026-10-30T16:12:08.594Z"
+  },
+  "TeamT5": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:09.172Z"
+  },
+  "TeamViewer": {
+    "qid": "Q1066769",
+    "label": "TeamViewer",
+    "description": "remote connectivity software",
+    "source": "search",
+    "checked": "2026-10-30T16:12:09.657Z"
+  },
+  "Teclib": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:10.246Z"
+  },
+  "TeleMessage": {
+    "qid": "Q7695731",
+    "label": "TeleMessage",
+    "description": "Israeli software company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:10.731Z"
+  },
+  "Telerik": {
+    "qid": "Q17183696",
+    "label": "Telerik",
+    "description": "Bulgarian company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:11.262Z"
+  },
+  "Tenda": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:11.788Z"
+  },
+  "TerraMaster": {
+    "qid": "Q65049881",
+    "label": "TerraMaster",
+    "description": "Chinese Computer Software Company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:12.261Z"
+  },
+  "TIBCO": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:07.187Z"
+  },
+  "TP-Link": {
+    "qid": "Q1852050",
+    "label": "TP-Link",
+    "description": "Computer networking technology company",
+    "source": "search",
+    "checked": "2026-10-30T16:12:07.655Z"
+  },
+  "TVT": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-10-30T16:12:08.136Z"
   }
 }

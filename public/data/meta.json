@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T15:05:03.324Z",
-  "siteUrl": "",
+  "generatedAt": "2026-10-30T16:11:03.320Z",
+  "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
       "ok": true,
@@ -36,14 +36,14 @@
     },
     "d3fend": {
       "ok": true,
-      "requestsThisRun": 150,
+      "requestsThisRun": 5,
       "failures": 0,
-      "cachedTechniques": 150
+      "cachedTechniques": 155
     },
     "wikidata": {
       "ok": true,
       "requestsThisRun": 120,
-      "resolved": 66
+      "resolved": 129
     }
   },
   "warnings": [],
@@ -55,7 +55,7 @@
     "withEpss": 1764,
     "techniques": 155,
     "techniquesWithD3fend": 127,
-    "vendorsWithQid": 66,
+    "vendorsWithQid": 129,
     "vendors": 291
   }
 }
