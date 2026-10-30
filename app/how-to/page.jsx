@@ -4,6 +4,13 @@ import Footer from "@/components/Footer";
 
 export const metadata = { title: "How to use" };
 
+const SITE = (process.env.SITE_URL || "https://www.cyberteam.uk").replace(/\/$/, "");
+const FEEDS = [
+  ["feed.xml", "Newly exploited", "Every vulnerability added to KEV in the last 30 days."],
+  ["feed-ransomware.xml", "Known ransomware use", "Only the ones CISA links to ransomware campaigns: the most urgent."],
+  ["feed-watchlist.xml", "Vendor watchlist", "Only products from watchlist vendors such as Microsoft, Cisco, Fortinet and Ivanti."],
+];
+
 const ROLES = [
   {
     who: "Vulnerability management",
@@ -127,6 +134,38 @@ export default function HowTo() {
           ))}
         </section>
 
+        <section className="card" id="feeds" style={{ marginTop: 16, scrollMarginTop: 80 }}>
+          <h2>Subscribe by RSS</h2>
+          <p className="note" style={{ marginTop: -6 }}>
+            Get new exploited vulnerabilities delivered to you. Each item has the vendor, ransomware flag, EPSS score, ATT&CK techniques,
+            D3FEND countermeasures, CAF outcomes and a link to the full chain. Feeds update when the data refreshes, twice a day.
+          </p>
+          <div className="grid g2" style={{ alignItems: "start" }}>
+            <div className="feeds">
+              {FEEDS.map(([file, name, desc]) => (
+                <div className="feed-row" key={file}>
+                  <div>
+                    <b>{name}</b>
+                    <span className="note">{desc}</span>
+                    <code>{`${SITE}/${file}`}</code>
+                  </div>
+                  <a className="btn" href={`/${file}`}>Open</a>
+                </div>
+              ))}
+            </div>
+            <div>
+              <h3 style={{ marginTop: 0 }}>How to subscribe</h3>
+              <ul className="howto-list">
+                <li><b>Feed reader</b> (Feedly, Inoreader, NetNewsWire): add a new feed and paste the address.</li>
+                <li><b>Outlook (classic desktop)</b>: right-click <b>RSS Subscriptions</b> in the folder list, choose <b>Add a New RSS Feed</b>, paste the address.</li>
+                <li><b>Microsoft Teams</b>: in Power Automate, create a flow with the <b>When a feed item is published</b> trigger and a <b>Post message in a chat or channel</b> action.</li>
+                <li><b>Slack</b>: add the RSS app, then type <code>/feed subscribe</code> followed by the address in the channel.</li>
+                <li><b>Email</b>: use the same Power Automate trigger with a <b>Send an email</b> action.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section className="grid g2" style={{ marginTop: 16 }}>
           <div className="card">
             <h2>Explore filters</h2>
@@ -149,6 +188,7 @@ export default function HowTo() {
               <li><b>Share a view:</b> filters on the Explore page are kept in the URL, so you can copy and send it.</li>
               <li><b>Spreadsheet:</b> <a href="/data/kev-enriched.csv" download>kev-enriched.csv</a> has one row per vulnerability.</li>
               <li><b>Open data:</b> <a href="/data/dataset.json">dataset.json</a> and linked data in <a href="/data/graph.jsonld">graph.jsonld</a>.</li>
+              <li><b>RSS:</b> subscribe to new items with the <a href="#feeds">feeds above</a>.</li>
               <li><b>Embed</b> the compact widget in another dashboard. Add <code>?theme=dark</code> for dark backgrounds:</li>
             </ul>
             <pre className="howto-code">{`<iframe src="https://www.cyberteam.uk/embed/"

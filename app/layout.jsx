@@ -29,6 +29,15 @@ export const metadata = {
     url: "/",
     locale: "en_GB",
   },
+  alternates: {
+    types: {
+      "application/rss+xml": [
+        { url: "/feed.xml", title: "Newly exploited vulnerabilities" },
+        { url: "/feed-ransomware.xml", title: "Known ransomware use" },
+        { url: "/feed-watchlist.xml", title: "Vendor watchlist" },
+      ],
+    },
+  },
   twitter: { card: "summary_large_image", title: "Exploited Vulnerabilities Dashboard", description: DESCRIPTION },
 };
 

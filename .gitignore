@@ -5,3 +5,5 @@ out/
 .env*
 *.log
 .DS_Store
+# Generated at build time by scripts/build-feeds.mjs
+public/feed*.xml

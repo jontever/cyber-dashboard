@@ -73,6 +73,7 @@ export default function About() {
           <li><a href="/data/graph.jsonld">graph.jsonld</a>: the same links as JSON-LD, using CVE, CWE, CAPEC, ATT&CK, D3FEND and Wikidata IRIs</li>
           <li><a href="/data/kev-enriched.csv">kev-enriched.csv</a>: one row per vulnerability</li>
           <li><a href="/data/meta.json">meta.json</a>: build time, source versions and coverage</li>
+          <li><a href="/feed.xml">feed.xml</a>, <a href="/feed-ransomware.xml">feed-ransomware.xml</a> and <a href="/feed-watchlist.xml">feed-watchlist.xml</a>: RSS feeds (see <a href="/how-to/#feeds">How to use</a>)</li>
         </ul>
         <Footer />
       </main>

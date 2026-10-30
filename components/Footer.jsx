@@ -14,7 +14,16 @@ export default function Footer() {
             Jonathan Silvester
           </a>
         </span>
-        <a href={REPO} target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        <span className="footer-links">
+          <a href="/how-to/#feeds" className="rss">
+            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+              <circle cx="5" cy="19" r="2.2" fill="currentColor" />
+              <path d="M3 10.5a10.5 10.5 0 0 1 10.5 10.5M3 3.5A17.5 17.5 0 0 1 20.5 21" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+            </svg>
+            RSS feeds
+          </a>
+          <a href={REPO} target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        </span>
       </div>
       <p>
         Open source (MIT). Data: CISA KEV, FIRST EPSS, MITRE ATT&CK, CAPEC, D3FEND and CTID Mappings Explorer, and Wikidata, each under its own

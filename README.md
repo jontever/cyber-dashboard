@@ -44,6 +44,18 @@ CISA KEV ──► CWE ──► CAPEC (context)
 | `/about/` | Method, per-source status for the latest build, coverage, data downloads |
 | `/embed/` | A compact widget for iframing into another dashboard |
 
+## RSS feeds
+
+Built at deploy time from `public/data/dataset.json` by `scripts/build-feeds.mjs` (runs before `next build`), so the feeds always match the deployed data.
+
+| Feed | Contents |
+|---|---|
+| `/feed.xml` | Every vulnerability added to KEV in the last 30 days |
+| `/feed-ransomware.xml` | Only those with known ransomware use |
+| `/feed-watchlist.xml` | Only vendors on the watchlist in `config/vendors.yaml` |
+
+Each item uses the CVE ID as its GUID (so readers never show duplicates) and includes vendor, ransomware flag, EPSS, ATT&CK techniques, D3FEND countermeasures, CAF outcomes and a link to the CVE's chain. Subscription instructions are on the How to use page.
+
 ## Open data
 
 | File | Contents |
