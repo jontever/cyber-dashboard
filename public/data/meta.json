@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:02:54.112Z",
+  "generatedAt": "2026-10-31T12:47:47.935Z",
   "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
@@ -42,7 +42,7 @@
     },
     "wikidata": {
       "ok": true,
-      "requestsThisRun": 45,
+      "requestsThisRun": 0,
       "resolved": 149
     }
   },

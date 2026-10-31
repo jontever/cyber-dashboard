@@ -31,7 +31,7 @@
   "Adobe": {
     "qid": "Q207",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "Advantive": {
     "qid": null,
@@ -82,7 +82,7 @@
   "Apple": {
     "qid": "Q312",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "Aquasecurity": {
     "qid": null,
@@ -214,7 +214,7 @@
   "Cisco": {
     "qid": "Q173395",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "Citrix": {
     "qid": "Q916196",
@@ -516,7 +516,7 @@
   "Google": {
     "qid": "Q95",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "Grafana Labs": {
     "qid": null,
@@ -811,7 +811,7 @@
   "Microsoft": {
     "qid": "Q2283",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "MikroTik": {
     "qid": "Q913580",
@@ -992,7 +992,7 @@
   "Oracle": {
     "qid": "Q19900",
     "source": "override",
-    "checked": "2026-10-30T23:02:56.754Z"
+    "checked": "2026-10-31T12:47:53.412Z"
   },
   "OSGeo": {
     "qid": "Q1197305",
