@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:01:59.958Z",
+  "generatedAt": "2026-11-04T14:42:41.797Z",
   "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
@@ -31,8 +31,8 @@
     "epss": {
       "ok": true,
       "url": "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz",
-      "scoreDate": "2026-11-03T12:00:27Z",
-      "scored": 1766
+      "scoreDate": "2026-11-04T12:03:12Z",
+      "scored": 1767
     },
     "d3fend": {
       "ok": true,
@@ -52,7 +52,7 @@
     "directCtid": 419,
     "heuristicRules": 1123,
     "unmapped": 225,
-    "withEpss": 1766,
+    "withEpss": 1767,
     "techniques": 155,
     "techniquesWithD3fend": 127,
     "vendorsWithQid": 149,
