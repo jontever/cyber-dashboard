@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-06T14:26:04.904Z",
+  "generatedAt": "2026-11-06T23:45:23.736Z",
   "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
       "ok": true,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "catalogVersion": "2026.11.04",
-      "dateReleased": "2026-11-04T20:00:05.774Z",
-      "count": 1768
+      "catalogVersion": "2026.11.06",
+      "dateReleased": "2026-11-06T19:44:45.1797Z",
+      "count": 1769
     },
     "attack": {
       "ok": true,
@@ -48,10 +48,10 @@
   },
   "warnings": [],
   "coverage": {
-    "total": 1768,
+    "total": 1769,
     "directCtid": 419,
     "heuristicRules": 1124,
-    "unmapped": 225,
+    "unmapped": 226,
     "withEpss": 1768,
     "techniques": 155,
     "techniquesWithD3fend": 127,
