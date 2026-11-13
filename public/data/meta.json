@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:34:37.138Z",
+  "generatedAt": "2026-11-13T14:44:14.038Z",
   "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
@@ -31,7 +31,7 @@
     "epss": {
       "ok": true,
       "url": "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz",
-      "scoreDate": "2026-11-12T12:00:25Z",
+      "scoreDate": "2026-11-13T12:03:22Z",
       "scored": 1779
     },
     "d3fend": {
