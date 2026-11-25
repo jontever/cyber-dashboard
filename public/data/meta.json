@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-25T03:05:29.072Z",
+  "generatedAt": "2026-11-25T17:26:03.296Z",
   "siteUrl": "https://www.cyberteam.uk",
   "sources": {
     "kev": {
       "ok": true,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "catalogVersion": "2026.11.24",
-      "dateReleased": "2026-11-24T17:47:46.199Z",
-      "count": 1795
+      "catalogVersion": "2026.11.25",
+      "dateReleased": "2026-11-25T14:22:29.6361Z",
+      "count": 1796
     },
     "attack": {
       "ok": true,
@@ -31,8 +31,8 @@
     "epss": {
       "ok": true,
       "url": "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz",
-      "scoreDate": "2026-11-24T12:00:20Z",
-      "scored": 1794
+      "scoreDate": "2026-11-25T12:00:23Z",
+      "scored": 1795
     },
     "d3fend": {
       "ok": true,
@@ -48,11 +48,11 @@
   },
   "warnings": [],
   "coverage": {
-    "total": 1795,
+    "total": 1796,
     "directCtid": 419,
-    "heuristicRules": 1144,
+    "heuristicRules": 1145,
     "unmapped": 232,
-    "withEpss": 1794,
+    "withEpss": 1795,
     "techniques": 155,
     "techniquesWithD3fend": 127,
     "vendorsWithQid": 152,
