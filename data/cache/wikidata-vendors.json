@@ -31,7 +31,7 @@
   "Adobe": {
     "qid": "Q207",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.227Z"
   },
   "Advantive": {
     "qid": null,
@@ -82,7 +82,7 @@
   "Apple": {
     "qid": "Q312",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.227Z"
   },
   "Aquasecurity": {
     "qid": null,
@@ -221,7 +221,7 @@
   "Cisco": {
     "qid": "Q173395",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.227Z"
   },
   "Citrix": {
     "qid": "Q916196",
@@ -313,6 +313,13 @@
     "description": "Chinese video surveillance products company",
     "source": "search",
     "checked": "2026-10-30T15:07:39.147Z"
+  },
+  "Danfoss": {
+    "qid": "Q1159510",
+    "label": "Danfoss",
+    "description": "Danish manufacturing company",
+    "source": "search",
+    "checked": "2026-11-26T02:17:43.484Z"
   },
   "Dasan": {
     "qid": null,
@@ -523,7 +530,7 @@
   "Google": {
     "qid": "Q95",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.784Z"
   },
   "GPUStack": {
     "qid": null,
@@ -828,7 +835,7 @@
   "Microsoft": {
     "qid": "Q2283",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.784Z"
   },
   "MikroTik": {
     "qid": "Q913580",
@@ -1021,7 +1028,7 @@
   "Oracle": {
     "qid": "Q19900",
     "source": "override",
-    "checked": "2026-11-25T17:26:05.451Z"
+    "checked": "2026-11-26T02:17:43.784Z"
   },
   "OSGeo": {
     "qid": "Q1197305",
@@ -1646,6 +1653,11 @@
     "qid": null,
     "source": "search",
     "checked": "2026-11-19T01:17:48.505Z"
+  },
+  "Vates": {
+    "qid": null,
+    "source": "search",
+    "checked": "2026-11-26T02:17:43.872Z"
   },
   "vBulletin": {
     "qid": "Q44338",
